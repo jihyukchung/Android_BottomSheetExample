@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BottomSheetExample</string>
+
+    <!-- Menu -->
+    <string name="Main_MenuTitle">BSE Menu</string>
+    <string name="Main_MenuSort">Sort</string>
+    <string name="Main_MenuDelete">Delete</string>
+
+    <!-- Bottom Sheet -->
+    <string name="SampleText">Click the Floating Action Button!</string>
+    <string name="BottomSheet_Find">Find:</string>
+    <string name="BottomSheet_Hint">Sample Text</string>
+    <string name="BottomSheet_Add">ADD</string>
+</resources>

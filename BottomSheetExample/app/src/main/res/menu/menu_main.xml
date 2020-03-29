@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/Main_MenuTitle"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu_white_24dp">
+        <menu>
+            <item
+                android:id="@+id/Main_MenuSortBy"
+                android:title="@string/Main_MenuSort"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_sort_black_24dp"/>
+            <item
+                android:id="@+id/Main_MenuDelete"
+                android:title="@string/Main_MenuDelete"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_delete_black_24dp"/>
+        </menu>
+    </item>
+</menu>

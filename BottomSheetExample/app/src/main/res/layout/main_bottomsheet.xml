@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    app:behavior_hideable="true"
+    app:behavior_skipCollapsed="true"
+    app:behavior_peekHeight="0dp"
+    android:clipToPadding="true"
+    android:padding="5dp"
+    android:id="@+id/bottomsheet">
+
+    <TextView
+        android:id="@+id/bottomsheet_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:autoSizeTextType="none"
+        android:gravity="center"
+        android:textStyle="normal"
+        android:textSize="17sp"
+        android:textColor="@color/Black"
+        android:text="@string/BottomSheet_Find"/>
+
+    <EditText
+        android:id="@+id/bottomsheet_edittext"
+        android:labelFor="@+id/bottomsheet_textview"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:textSize="16sp"
+        android:inputType="text"
+        android:autofillHints="@string/BottomSheet_Hint"
+        android:hint="@string/BottomSheet_Hint"/>
+
+    <Button
+        android:id="@+id/bottomsheet_addbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:textSize="16sp"
+        android:text="@string/BottomSheet_Add"/>
+
+</LinearLayout>
